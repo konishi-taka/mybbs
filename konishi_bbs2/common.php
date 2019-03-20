@@ -29,6 +29,7 @@ function dbInsert(){
           $isContent = $_POST["recom"];
       }
     }
+    //名前と内容が含まれているとき
     if(isset($isName, $isContent)){
       if($isName && $isContent){
         try{
