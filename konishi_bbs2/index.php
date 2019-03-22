@@ -1,5 +1,5 @@
 <?php
-    //SQL接続する
+    //SQL接続
     require_once('common.php');
     // DB処理
     $mysqli = dbConect();
